@@ -1,26 +1,48 @@
-const path = require('path')
-const fs = require('fs')
-const PathToFile = path.join(__dirname, "data.json")
+const path = require('path');
+const fs = require('fs/promises');
 
-async function WriteDate(data) {
+const PathToFile = path.join(__dirname, 'data.json');
 
-    await fs.appendFile(PathToFile, data, () => {
+async function ReadData() {
+    try {
+        const data = await fs.readFile(PathToFile, 'utf8');
 
-        console.log("Data added");
+        if (!data.trim()) {
+            return [];
+        }
 
+        return JSON.parse(data);
+    } catch (error) {
+        if (error.code === 'ENOENT') {
+            await fs.writeFile(PathToFile, '[]');
+            return [];
+        }
 
-    })
+        throw error;
+    }
 }
 
- function ReadData() {
-    
-    const data =  fs.readFile(PathToFile, "utf8")
+async function WriteData(data) {
+    await fs.writeFile(
+        PathToFile,
+        JSON.stringify(data, null, 2)
+    );
 
-    return JSON.parse(data);
+    console.log('Data is changed');
+}
 
+async function AppendData(data) {
+    const blogs = await ReadData();
+
+    blogs.push(data);
+
+    await WriteData(blogs);
+
+    console.log('Data added');
 }
 
 module.exports = {
-    WriteDate, 
-    ReadData
-}
+    ReadData,
+    WriteData,
+    AppendData
+};

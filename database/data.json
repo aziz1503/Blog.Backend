@@ -1,14 +1,33 @@
 [
-    {
-        "id": 1,
-        "title": "Ob-havo malumotlari",
-        "text": "Bugun toshkent shahrida havo harorati ...",
-        "author": "Kripton Silva"
-    },
-    {
-        "id": 2,
-        "title": "Xorij habarlari",
-        "text": "Janubiy afrikaning Keyptown shahrida ...",
-        "author": "Aziz Ismoilov"
-    }
+  {
+    "id": "1ff2ed4a-2061-429e-b93d-5e5b0857304a",
+    "title": "blogi",
+    "text": "blog post.",
+    "author": "Kripton Silva"
+  },
+  {
+    "id": "0baae5d4-0bce-4bfc-bbd3-cc909af5e3a5",
+    "title": "Mening blogim",
+    "text": "Bu mening blog matnim",
+    "author": "Aziz"
+  },
+  {
+    "id": "7078c03d-52b1-4dcb-965c-230286917360",
+    "title": "blogs",
+    "text": "blog post",
+    "author": "Kripton Silva"
+  },
+  {
+    "id": "f0cf242c-1ad3-4a09-93ef-a6ffba49bb42",
+    "title": "blogs",
+    "text": "blog post",
+    "author": "Kripton Silva"
+  },
+  {
+    "id": "4920ab05-840c-442a-a398-569e8c647084",
+    "title": "blogs",
+    "text": "blog post",
+    "author": "Kripton Silva"
+  }
+
 ]

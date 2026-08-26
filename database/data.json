@@ -6,12 +6,6 @@
     "author": "Kripton Silva"
   },
   {
-    "id": "0baae5d4-0bce-4bfc-bbd3-cc909af5e3a5",
-    "title": "Mening blogim",
-    "text": "Bu mening blog matnim",
-    "author": "Aziz"
-  },
-  {
     "id": "7078c03d-52b1-4dcb-965c-230286917360",
     "title": "blogs",
     "text": "blog post",
@@ -28,6 +22,11 @@
     "title": "blogs",
     "text": "blog post",
     "author": "Kripton Silva"
+  },
+  {
+    "id": "3413cac6-56a6-4e4e-bfe4-01a73e9a7103",
+    "title": "blogi",
+    "text": "blog post",
+    "author": "Kripton Silvas"
   }
-
 ]

@@ -1,32 +1,56 @@
 [
   {
-    "id": "1ff2ed4a-2061-429e-b93d-5e5b0857304a",
-    "title": "blogi",
-    "text": "blog post.",
-    "author": "Kripton Silva"
-  },
-  {
-    "id": "7078c03d-52b1-4dcb-965c-230286917360",
-    "title": "blogs",
-    "text": "blog post",
-    "author": "Kripton Silva"
-  },
-  {
-    "id": "f0cf242c-1ad3-4a09-93ef-a6ffba49bb42",
-    "title": "blogs",
-    "text": "blog post",
-    "author": "Kripton Silva"
-  },
-  {
-    "id": "4920ab05-840c-442a-a398-569e8c647084",
-    "title": "blogs",
-    "text": "blog post",
-    "author": "Kripton Silva"
-  },
-  {
     "id": "3413cac6-56a6-4e4e-bfe4-01a73e9a7103",
-    "title": "blogi",
-    "text": "blog post",
+    "title": "JavaScript",
+    "text": "JavaScript web dasturlashda juda muhim til hisoblanadi. U yordamida sahifalarga turli funksiyalar, animatsiyalar va interaktiv imkoniyatlar qo‘shish mumkin.",
     "author": "Kripton Silvas"
+  },
+  {
+    "id": "7f8c2a91-3d54-4b67-9e12-5a8f6c2d1047",
+    "title": "Web Development",
+    "text": "Web dasturlash orqali zamonaviy saytlar yaratish mumkin. Buning uchun HTML, CSS, JavaScript va backend texnologiyalarini yaxshi o‘rganish juda muhim.",
+    "author": "Aziz Karimov"
+  },
+  {
+    "id": "a92e5c71-6b43-4d18-8f25-1c7a9e304562",
+    "title": "Frontend",
+    "text": "Frontend dasturchilar foydalanuvchilar ko‘radigan web sahifalarni yaratadilar. HTML, CSS va JavaScript frontend dasturlashning eng asosiy texnologiyalari hisoblanadi.",
+    "author": "John Smith"
+  },
+  {
+    "id": "c45b8e23-1a67-4f90-bd34-7e2c5a819046",
+    "title": "HTML",
+    "text": "HTML web sahifaning asosiy tuzilmasini yaratish uchun ishlatiladi. Unda sarlavhalar, rasmlar, matnlar, tugmalar va boshqa elementlar joylashtiriladi.",
+    "author": "Michael Brown"
+  },
+  {
+    "id": "e17d4a82-9c35-46b1-a728-3f5e0d614927",
+    "title": "CSS",
+    "text": "CSS yordamida HTML elementlariga rang, o‘lcham, joylashuv va turli dizaynlar berish mumkin. Bu saytlarni chiroyli va zamonaviy ko‘rsatishga yordam beradi.",
+    "author": "David Wilson"
+  },
+  {
+    "id": "52a9c6e4-7b31-48d5-9f02-6c8e1a453720",
+    "title": "Node.js",
+    "text": "Node.js JavaScript yordamida server tomonida dasturlash imkonini beradi. U backend yaratish, API ishlab chiqish va ma’lumotlar bilan ishlashda keng qo‘llaniladi.",
+    "author": "Robert Miller"
+  },
+  {
+    "id": "8619c17a-3c0a-46d5-91f5-6f145e1f8975",
+    "title": " 1 ",
+    "text": "middleware lar asosan exspresda ishlaydi",
+    "author": "Aziz"
+  },
+  {
+    "id": "623126d8-6b4b-4927-ae1b-91e580822e06",
+    "title": " 1asd ",
+    "text": "middleware lar asosan exspresda ishlaydi",
+    "author": "Aziz"
+  },
+  {
+    "id": "96150a61-cbb8-4b8c-ba39-a65c4d66d3e2",
+    "title": " 1asasd ",
+    "text": "middleware lar asosan exspresda ishlaydi",
+    "author": "Aziz"
   }
 ]

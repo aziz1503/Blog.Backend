@@ -1,702 +1,709 @@
 [
-{
-"id": "0b5e8147-f37f-40f0-ac4a-6687055f9c49",
-"name": "iPhone 17",
-"description": "Apple smartfoni",
-"price": 1200,
-"category": "Telefon"
-},
-{
-"id": "1a7c9236-b48d-41e2-9f5a-123456789001",
-"name": "Samsung Galaxy S26",
-"description": "Samsung flagman smartfoni",
-"price": 1100,
-"category": "Telefon"
-},
-{
-"id": "2b8d0347-c59e-42f3-8a6b-123456789002",
-"name": "Xiaomi 15",
-"description": "Xiaomi yuqori darajadagi smartfoni",
-"price": 700,
-"category": "Telefon"
-},
-{
-"id": "3c9e1458-d60f-43a4-9b7c-123456789003",
-"name": "Redmi Note 15",
-"description": "Kuchli va hamyonbop smartfon",
-"price": 350,
-"category": "Telefon"
-},
-{
-"id": "4d0f2569-e71a-44b5-ac8d-123456789004",
-"name": "Google Pixel 10",
-"description": "Google Pixel smartfoni",
-"price": 850,
-"category": "Telefon"
-},
-{
-"id": "5e1a3670-f82b-45c6-bd9e-123456789005",
-"name": "OnePlus 13",
-"description": "Yuqori tezlikdagi Android smartfon",
-"price": 750,
-"category": "Telefon"
-},
-{
-"id": "6f2b4781-a93c-46d7-ce0f-123456789006",
-"name": "MacBook Air M4",
-"description": "Apple yengil noutbuki",
-"price": 1200,
-"category": "Noutbuk"
-},
-{
-"id": "7a3c5892-b04d-47e8-df1a-123456789007",
-"name": "MacBook Pro M4",
-"description": "Professional Apple noutbuki",
-"price": 2200,
-"category": "Noutbuk"
-},
-{
-"id": "8b4d6903-c15e-48f9-ea2b-123456789008",
-"name": "Dell Inspiron 15",
-"description": "Kundalik foydalanish uchun noutbuk",
-"price": 650,
-"category": "Noutbuk"
-},
-{
-"id": "9c5e7014-d26f-49a0-fb3c-123456789009",
-"name": "Lenovo IdeaPad 5",
-"description": "Universitet va ish uchun noutbuk",
-"price": 700,
-"category": "Noutbuk"
-},
-{
-"id": "aa6f8125-e37a-40b1-ac4d-123456789010",
-"name": "ASUS VivoBook 16",
-"description": "Katta ekranli noutbuk",
-"price": 750,
-"category": "Noutbuk"
-},
-{
-"id": "bb708236-f48b-41c2-bd5e-123456789011",
-"name": "HP Pavilion 15",
-"description": "Kundalik ishlar uchun noutbuk",
-"price": 680,
-"category": "Noutbuk"
-},
-{
-"id": "cc819347-a59c-42d3-ce6f-123456789012",
-"name": "Acer Aspire 5",
-"description": "Hamyonbop universal noutbuk",
-"price": 600,
-"category": "Noutbuk"
-},
-{
-"id": "dd920458-b60d-43e4-df70-123456789013",
-"name": "MSI Katana 15",
-"description": "Gaming uchun kuchli noutbuk",
-"price": 1100,
-"category": "Noutbuk"
-},
-{
-"id": "ee031569-c71e-44f5-ea81-123456789014",
-"name": "Acer Nitro V",
-"description": "Gaming noutbuki",
-"price": 950,
-"category": "Noutbuk"
-},
-{
-"id": "ff142670-d82f-4506-fb92-123456789015",
-"name": "Lenovo Legion 5",
-"description": "Yuqori unumdor gaming noutbuki",
-"price": 1400,
-"category": "Noutbuk"
-},
-{
-"id": "10253781-e93a-4617-ac03-123456789016",
-"name": "RTX 5060",
-"description": "8GB GDDR7 video karta",
-"price": 400,
-"category": "Video karta"
-},
-{
-"id": "21364892-f04b-4728-bd14-123456789017",
-"name": "RTX 5070",
-"description": "Yuqori darajadagi NVIDIA video karta",
-"price": 650,
-"category": "Video karta"
-},
-{
-"id": "32475903-a15c-4839-ce25-123456789018",
-"name": "RTX 5070 Ti",
-"description": "Kuchli gaming video karta",
-"price": 850,
-"category": "Video karta"
-},
-{
-"id": "43586014-b26d-494a-df36-123456789019",
-"name": "RTX 5080",
-"description": "High-end NVIDIA video karta",
-"price": 1100,
-"category": "Video karta"
-},
-{
-"id": "54697125-c37e-405b-ea47-123456789020",
-"name": "RX 7600",
-"description": "AMD gaming video kartasi",
-"price": 280,
-"category": "Video karta"
-},
-{
-"id": "65708236-d48f-416c-fb58-123456789021",
-"name": "RX 7800 XT",
-"description": "16GB AMD video karta",
-"price": 500,
-"category": "Video karta"
-},
-{
-"id": "76819347-e59a-427d-ac69-123456789022",
-"name": "RX 7900 XT",
-"description": "Yuqori unumdor AMD video karta",
-"price": 700,
-"category": "Video karta"
-},
-{
-"id": "87920458-f60b-438e-bd70-123456789023",
-"name": "Intel Core i5-14400F",
-"description": "10 yadroli desktop protsessor",
-"price": 220,
-"category": "Protsessor"
-},
-{
-"id": "98031569-a71c-449f-ce81-123456789024",
-"name": "Intel Core i7-14700K",
-"description": "Kuchli Intel protsessori",
-"price": 400,
-"category": "Protsessor"
-},
-{
-"id": "a9142680-b82d-450a-df92-123456789025",
-"name": "Intel Core i9-14900K",
-"description": "Flagman Intel protsessori",
-"price": 550,
-"category": "Protsessor"
-},
-{
-"id": "ba253791-c93e-461b-ea03-123456789026",
-"name": "Ryzen 5 7600",
-"description": "AMD 6 yadroli protsessor",
-"price": 200,
-"category": "Protsessor"
-},
-{
-"id": "cb364802-d04f-472c-fb14-123456789027",
-"name": "Ryzen 7 7800X3D",
-"description": "Gaming uchun kuchli AMD protsessor",
-"price": 380,
-"category": "Protsessor"
-},
-{
-"id": "dc475913-e15a-483d-ac25-123456789028",
-"name": "Ryzen 9 7950X",
-"description": "16 yadroli AMD protsessor",
-"price": 550,
-"category": "Protsessor"
-},
-{
-"id": "ed586024-f26b-494e-bd36-123456789029",
-"name": "Kingston 8GB DDR5",
-"description": "DDR5 operativ xotira",
-"price": 35,
-"category": "RAM"
-},
-{
-"id": "fe697135-a37c-405f-ce47-123456789030",
-"name": "Kingston 16GB DDR5",
-"description": "16GB DDR5 RAM",
-"price": 60,
-"category": "RAM"
-},
-{
-"id": "107a8246-b48d-416a-df58-123456789031",
-"name": "Corsair 32GB DDR5",
-"description": "32GB gaming RAM",
-"price": 110,
-"category": "RAM"
-},
-{
-"id": "218b9357-c59e-427b-ea69-123456789032",
-"name": "Samsung 980 1TB",
-"description": "Tezkor NVMe SSD",
-"price": 90,
-"category": "SSD"
-},
-{
-"id": "329ca468-d60f-438c-fb70-123456789033",
-"name": "Samsung 990 Pro 2TB",
-"description": "Yuqori tezlikdagi NVMe SSD",
-"price": 180,
-"category": "SSD"
-},
-{
-"id": "43adb579-e71a-449d-ac81-123456789034",
-"name": "WD Black SN850X",
-"description": "Gaming uchun NVMe SSD",
-"price": 150,
-"category": "SSD"
-},
-{
-"id": "54bec680-f82b-450e-bd92-123456789035",
-"name": "Crucial P3 1TB",
-"description": "1TB NVMe SSD",
-"price": 70,
-"category": "SSD"
-},
-{
-"id": "65cfd791-a93c-461f-ce03-123456789036",
-"name": "WD Blue 1TB",
-"description": "1TB HDD disk",
-"price": 45,
-"category": "HDD"
-},
-{
-"id": "76d0e802-b04d-472a-df14-123456789037",
-"name": "Seagate Barracuda 2TB",
-"description": "2TB HDD disk",
-"price": 60,
-"category": "HDD"
-},
-{
-"id": "87e1f913-c15e-483b-ea25-123456789038",
-"name": "Dell 24 Monitor",
-"description": "24 dyuym Full HD monitor",
-"price": 150,
-"category": "Monitor"
-},
-{
-"id": "98f20a24-d26f-494c-fb36-123456789039",
-"name": "LG UltraGear 27",
-"description": "27 dyuym 144Hz gaming monitor",
-"price": 300,
-"category": "Monitor"
-},
-{
-"id": "a9031b35-e37a-405d-ac47-123456789040",
-"name": "Samsung Odyssey G5",
-"description": "27 dyuym QHD gaming monitor",
-"price": 350,
-"category": "Monitor"
-},
-{
-"id": "ba142c46-f48b-416e-bd58-123456789041",
-"name": "ASUS TUF Gaming VG27",
-"description": "180Hz gaming monitor",
-"price": 330,
-"category": "Monitor"
-},
-{
-"id": "cb253d57-a59c-427f-ce69-123456789042",
-"name": "AOC 24G2",
-"description": "24 dyuym 144Hz monitor",
-"price": 180,
-"category": "Monitor"
-},
-{
-"id": "dc364e68-b60d-438a-df70-123456789043",
-"name": "Logitech G502",
-"description": "Gaming sichqonchasi",
-"price": 70,
-"category": "Sichqoncha"
-},
-{
-"id": "ed475f79-c71e-449b-ea81-123456789044",
-"name": "Razer DeathAdder V3",
-"description": "Professional gaming mouse",
-"price": 80,
-"category": "Sichqoncha"
-},
-{
-"id": "fe58608a-d82f-450c-fb92-123456789045",
-"name": "Logitech G Pro X Superlight",
-"description": "Yengil wireless gaming mouse",
-"price": 130,
-"category": "Sichqoncha"
-},
-{
-"id": "1076919b-e93a-461d-ac03-123456789046",
-"name": "Razer Viper V3 Pro",
-"description": "Professional wireless mouse",
-"price": 150,
-"category": "Sichqoncha"
-},
-{
-"id": "2187a2ac-f04b-472e-bd14-123456789047",
-"name": "Logitech K120",
-"description": "Oddiy USB klaviatura",
-"price": 20,
-"category": "Klaviatura"
-},
-{
-"id": "3298b3bd-a15c-483f-ce25-123456789048",
-"name": "Redragon K552",
-"description": "Mexanik gaming klaviatura",
-"price": 50,
-"category": "Klaviatura"
-},
-{
-"id": "43a9c4ce-b26d-494a-df36-123456789049",
-"name": "Razer BlackWidow V4",
-"description": "Premium mexanik klaviatura",
-"price": 160,
-"category": "Klaviatura"
-},
-{
-"id": "54bad5df-c37e-405b-ea47-123456789050",
-"name": "Keychron K2",
-"description": "Wireless mexanik klaviatura",
-"price": 90,
-"category": "Klaviatura"
-},
-{
-"id": "65cbe6e0-d48f-416c-fb58-123456789051",
-"name": "HyperX Alloy Origins",
-"description": "Gaming mexanik klaviatura",
-"price": 100,
-"category": "Klaviatura"
-},
-{
-"id": "76dcf7f1-e59a-427d-ac69-123456789052",
-"name": "Sony WH-1000XM6",
-"description": "Noise cancelling quloqchin",
-"price": 450,
-"category": "Quloqchin"
-},
-{
-"id": "87ed08a2-f60b-438e-bd70-123456789053",
-"name": "AirPods Pro 3",
-"description": "Apple wireless quloqchini",
-"price": 250,
-"category": "Quloqchin"
-},
-{
-"id": "98fe19b3-a71c-449f-ce81-123456789054",
-"name": "Galaxy Buds 4 Pro",
-"description": "Samsung premium earbuds",
-"price": 220,
-"category": "Quloqchin"
-},
-{
-"id": "a90f2ac4-b82d-450a-df92-123456789055",
-"name": "JBL Tune 770NC",
-"description": "Wireless noise cancelling quloqchin",
-"price": 100,
-"category": "Quloqchin"
-},
-{
-"id": "ba103bd5-c93e-461b-ea03-123456789056",
-"name": "Anker Soundcore Q45",
-"description": "Uzoq batareyali wireless quloqchin",
-"price": 130,
-"category": "Quloqchin"
-},
-{
-"id": "cb214ce6-d04f-472c-fb14-123456789057",
-"name": "iPad Pro M5",
-"description": "Professional Apple plansheti",
-"price": 1000,
-"category": "Planshet"
-},
-{
-"id": "dc325df7-e15a-483d-ac25-123456789058",
-"name": "iPad Air M3",
-"description": "Yengil va kuchli planshet",
-"price": 650,
-"category": "Planshet"
-},
-{
-"id": "ed436e08-f26b-494e-bd36-123456789059",
-"name": "Galaxy Tab S11",
-"description": "Samsung Android plansheti",
-"price": 700,
-"category": "Planshet"
-},
-{
-"id": "fe547f19-a37c-405f-ce47-123456789060",
-"name": "Xiaomi Pad 7",
-"description": "Kuchli Xiaomi plansheti",
-"price": 400,
-"category": "Planshet"
-},
-{
-"id": "1056802a-b48d-416a-df58-123456789061",
-"name": "Galaxy Watch 8",
-"description": "Samsung aqlli soati",
-"price": 350,
-"category": "Smart soat"
-},
-{
-"id": "2167913b-c59e-427b-ea69-123456789062",
-"name": "Apple Watch Series 11",
-"description": "Apple aqlli soati",
-"price": 450,
-"category": "Smart soat"
-},
-{
-"id": "3278a24c-d60f-438c-fb70-123456789063",
-"name": "Garmin Venu 4",
-"description": "Sport uchun aqlli soat",
-"price": 400,
-"category": "Smart soat"
-},
-{
-"id": "4389b35d-e71a-449d-ac81-123456789064",
-"name": "Xiaomi Watch S4",
-"description": "Xiaomi aqlli soati",
-"price": 180,
-"category": "Smart soat"
-},
-{
-"id": "549ac46e-f82b-450e-bd92-123456789065",
-"name": "Anker 65W Charger",
-"description": "65W tez zaryadlovchi",
-"price": 45,
-"category": "Zaryadlovchi"
-},
-{
-"id": "65abd57f-a93c-461f-ce03-123456789066",
-"name": "Samsung 45W Charger",
-"description": "Samsung Super Fast Charging adapter",
-"price": 40,
-"category": "Zaryadlovchi"
-},
-{
-"id": "76bce680-b04d-472a-df14-123456789067",
-"name": "Apple 35W Charger",
-"description": "Apple USB-C quvvat adapteri",
-"price": 60,
-"category": "Zaryadlovchi"
-},
-{
-"id": "87cdf791-c15e-483b-ea25-123456789068",
-"name": "Baseus 100W Charger",
-"description": "100W ko‘p portli charger",
-"price": 55,
-"category": "Zaryadlovchi"
-},
-{
-"id": "98def802-d26f-494c-fb36-123456789069",
-"name": "UGREEN 65W Charger",
-"description": "Kompakt GaN charger",
-"price": 50,
-"category": "Zaryadlovchi"
-},
-{
-"id": "a9ef0913-e37a-405d-ac47-123456789070",
-"name": "DeepCool PF550",
-"description": "550W kompyuter quvvat bloki",
-"price": 60,
-"category": "Quvvat bloki"
-},
-{
-"id": "ba0a1a24-f48b-416e-bd58-123456789071",
-"name": "Corsair RM750e",
-"description": "750W 80 Plus Gold PSU",
-"price": 110,
-"category": "Quvvat bloki"
-},
-{
-"id": "cb1b2b35-a59c-427f-ce69-123456789072",
-"name": "be quiet! Pure Power 12",
-"description": "850W sifatli quvvat bloki",
-"price": 130,
-"category": "Quvvat bloki"
-},
-{
-"id": "dc2c3c46-b60d-438a-df70-123456789073",
-"name": "MSI MAG A650BN",
-"description": "650W Bronze PSU",
-"price": 65,
-"category": "Quvvat bloki"
-},
-{
-"id": "ed3d4d57-c71e-449b-ea81-123456789074",
-"name": "ASUS TUF 750W",
-"description": "750W gaming PSU",
-"price": 120,
-"category": "Quvvat bloki"
-},
-{
-"id": "fe4e5e68-d82f-450c-fb92-123456789075",
-"name": "NZXT H5 Flow",
-"description": "Gaming kompyuter korpusi",
-"price": 100,
-"category": "Korpus"
-},
-{
-"id": "1f5f6f79-e93a-461d-ac03-123456789076",
-"name": "DeepCool CH560",
-"description": "ARGB gaming korpus",
-"price": 120,
-"category": "Korpus"
-},
-{
-"id": "2a60708a-f04b-472e-bd14-123456789077",
-"name": "Montech Air 903",
-"description": "Havo oqimi yaxshi bo‘lgan korpus",
-"price": 90,
-"category": "Korpus"
-},
-{
-"id": "3b71819b-a15c-483f-ce25-123456789078",
-"name": "Lian Li Lancool 216",
-"description": "Premium gaming korpus",
-"price": 150,
-"category": "Korpus"
-},
-{
-"id": "4c8292ac-b26d-494a-df36-123456789079",
-"name": "Corsair 4000D",
-"description": "Mashhur ATX korpus",
-"price": 100,
-"category": "Korpus"
-},
-{
-"id": "5d93a3bd-c37e-405b-ea47-123456789080",
-"name": "DeepCool AK400",
-"description": "CPU uchun havo sovutgich",
-"price": 40,
-"category": "Sovutgich"
-},
-{
-"id": "6ea4b4ce-d48f-416c-fb58-123456789081",
-"name": "DeepCool AK620",
-"description": "Kuchli dual tower CPU cooler",
-"price": 70,
-"category": "Sovutgich"
-},
-{
-"id": "7fb5c5df-e59a-427d-ac69-123456789082",
-"name": "Noctua NH-D15",
-"description": "Premium havo sovutgich",
-"price": 110,
-"category": "Sovutgich"
-},
-{
-"id": "80c6d6e0-f60b-438e-bd70-123456789083",
-"name": "Arctic Liquid Freezer III",
-"description": "360mm suyuqlik sovutish tizimi",
-"price": 130,
-"category": "Sovutgich"
-},
-{
-"id": "91d7e7f1-a71c-449f-ce81-123456789084",
-"name": "Cooler Master Hyper 212",
-"description": "Universal CPU cooler",
-"price": 45,
-"category": "Sovutgich"
-},
-{
-"id": "a2e8f802-b82d-450a-df92-123456789085",
-"name": "Elgato Stream Deck",
-"description": "Streamerlar uchun control panel",
-"price": 150,
-"category": "Aksessuar"
-},
-{
-"id": "b3f90913-c93e-461b-ea03-123456789086",
-"name": "Logitech C920",
-"description": "Full HD web kamera",
-"price": 70,
-"category": "Web kamera"
-},
-{
-"id": "c40a1a24-d04f-472c-fb14-123456789087",
-"name": "Razer Kiyo",
-"description": "Streaming web kamera",
-"price": 90,
-"category": "Web kamera"
-},
-{
-"id": "d51b2b35-e15a-483d-ac25-123456789088",
-"name": "HyperX QuadCast 2",
-"description": "USB kondensator mikrofon",
-"price": 150,
-"category": "Mikrofon"
-},
-{
-"id": "e62c3c46-f26b-494e-bd36-123456789089",
-"name": "Blue Yeti",
-"description": "Mashhur USB mikrofon",
-"price": 120,
-"category": "Mikrofon"
-},
-{
-"id": "f73d4d57-a37c-405f-ce47-123456789090",
-"name": "FIFINE K688",
-"description": "USB va XLR mikrofon",
-"price": 90,
-"category": "Mikrofon"
-},
-{
-"id": "084e5e68-b48d-416a-df58-123456789091",
-"name": "Samsung T7 1TB",
-"description": "Portable tashqi SSD",
-"price": 100,
-"category": "Tashqi disk"
-},
-{
-"id": "195f6f79-c59e-427b-ea69-123456789092",
-"name": "Samsung T7 Shield 2TB",
-"description": "Himoyalangan portable SSD",
-"price": 180,
-"category": "Tashqi disk"
-},
-{
-"id": "2a60708a-d60f-438c-fb70-123456789093",
-"name": "SanDisk Extreme 1TB",
-"description": "Tezkor portable SSD",
-"price": 120,
-"category": "Tashqi disk"
-},
-{
-"id": "3b71819b-e71a-449d-ac81-123456789094",
-"name": "Kingston XS1000 1TB",
-"description": "Kichik hajmdagi portable SSD",
-"price": 90,
-"category": "Tashqi disk"
-},
-{
-"id": "4c8292ac-f82b-450e-bd92-123456789095",
-"name": "TP-Link Archer AX55",
-"description": "Wi-Fi 6 router",
-"price": 100,
-"category": "Router"
-},
-{
-"id": "5d93a3bd-a93c-461f-ce03-123456789096",
-"name": "ASUS RT-AX86U",
-"description": "Gaming Wi-Fi 6 router",
-"price": 200,
-"category": "Router"
-},
-{
-"id": "6ea4b4ce-b04d-472a-df14-123456789097",
-"name": "Xiaomi Router AX3200",
-"description": "Arzon Wi-Fi 6 router",
-"price": 60,
-"category": "Router"
-},
-{
-"id": "7fb5c5df-c15e-483e-ea25-123456789098",
-"name": "TP-Link Archer C6",
-"description": "AC1200 Wi-Fi router",
-"price": 45,
-"category": "Router"
-},
-{
-"id": "80c6d6e0-d26f-494c-fb36-123456789099",
-"name": "Mercusys MR70X",
-"description": "Wi-Fi 6 gigabit router",
-"price": 55,
-"category": "Router"
-}
+  {
+    "id": "0b5e8147-f37f-40f0-ac4a-6687055f9c49",
+    "name": "iPhone 17",
+    "description": "Apple smartfoni",
+    "price": 1200,
+    "category": "Telefon"
+  },
+  {
+    "id": "1a7c9236-b48d-41e2-9f5a-123456789001",
+    "name": "iPhone 17",
+    "description": "Apple smartfoni",
+    "price": 1200,
+    "category": "Telefon"
+  },
+  {
+    "id": "2b8d0347-c59e-42f3-8a6b-123456789002",
+    "name": "Xiaomi 15",
+    "description": "Xiaomi yuqori darajadagi smartfoni",
+    "price": 700,
+    "category": "Telefon"
+  },
+  {
+    "id": "3c9e1458-d60f-43a4-9b7c-123456789003",
+    "name": "Redmi Note 15",
+    "description": "Kuchli va hamyonbop smartfon",
+    "price": 350,
+    "category": "Telefon"
+  },
+  {
+    "id": "4d0f2569-e71a-44b5-ac8d-123456789004",
+    "name": "Google Pixel 10",
+    "description": "Google Pixel smartfoni",
+    "price": 850,
+    "category": "Telefon"
+  },
+  {
+    "id": "5e1a3670-f82b-45c6-bd9e-123456789005",
+    "name": "OnePlus 13",
+    "description": "Yuqori tezlikdagi Android smartfon",
+    "price": 750,
+    "category": "Telefon"
+  },
+  {
+    "id": "6f2b4781-a93c-46d7-ce0f-123456789006",
+    "name": "MacBook Air M4",
+    "description": "Apple yengil noutbuki",
+    "price": 1200,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "7a3c5892-b04d-47e8-df1a-123456789007",
+    "name": "MacBook Pro M4",
+    "description": "Professional Apple noutbuki",
+    "price": 2200,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "8b4d6903-c15e-48f9-ea2b-123456789008",
+    "name": "Dell Inspiron 15",
+    "description": "Kundalik foydalanish uchun noutbuk",
+    "price": 650,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "9c5e7014-d26f-49a0-fb3c-123456789009",
+    "name": "Lenovo IdeaPad 5",
+    "description": "Universitet va ish uchun noutbuk",
+    "price": 700,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "aa6f8125-e37a-40b1-ac4d-123456789010",
+    "name": "ASUS VivoBook 16",
+    "description": "Katta ekranli noutbuk",
+    "price": 750,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "bb708236-f48b-41c2-bd5e-123456789011",
+    "name": "HP Pavilion 15",
+    "description": "Kundalik ishlar uchun noutbuk",
+    "price": 680,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "cc819347-a59c-42d3-ce6f-123456789012",
+    "name": "Acer Aspire 5",
+    "description": "Hamyonbop universal noutbuk",
+    "price": 600,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "dd920458-b60d-43e4-df70-123456789013",
+    "name": "MSI Katana 15",
+    "description": "Gaming uchun kuchli noutbuk",
+    "price": 1100,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "ee031569-c71e-44f5-ea81-123456789014",
+    "name": "Acer Nitro V",
+    "description": "Gaming noutbuki",
+    "price": 950,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "ff142670-d82f-4506-fb92-123456789015",
+    "name": "Lenovo Legion 5",
+    "description": "Yuqori unumdor gaming noutbuki",
+    "price": 1400,
+    "category": "Noutbuk"
+  },
+  {
+    "id": "10253781-e93a-4617-ac03-123456789016",
+    "name": "RTX 5060",
+    "description": "8GB GDDR7 video karta",
+    "price": 400,
+    "category": "Video karta"
+  },
+  {
+    "id": "21364892-f04b-4728-bd14-123456789017",
+    "name": "RTX 5070",
+    "description": "Yuqori darajadagi NVIDIA video karta",
+    "price": 650,
+    "category": "Video karta"
+  },
+  {
+    "id": "32475903-a15c-4839-ce25-123456789018",
+    "name": "RTX 5070 Ti",
+    "description": "Kuchli gaming video karta",
+    "price": 850,
+    "category": "Video karta"
+  },
+  {
+    "id": "43586014-b26d-494a-df36-123456789019",
+    "name": "RTX 5080",
+    "description": "High-end NVIDIA video karta",
+    "price": 1100,
+    "category": "Video karta"
+  },
+  {
+    "id": "54697125-c37e-405b-ea47-123456789020",
+    "name": "RX 7600",
+    "description": "AMD gaming video kartasi",
+    "price": 280,
+    "category": "Video karta"
+  },
+  {
+    "id": "65708236-d48f-416c-fb58-123456789021",
+    "name": "RX 7800 XT",
+    "description": "16GB AMD video karta",
+    "price": 500,
+    "category": "Video karta"
+  },
+  {
+    "id": "76819347-e59a-427d-ac69-123456789022",
+    "name": "RX 7900 XT",
+    "description": "Yuqori unumdor AMD video karta",
+    "price": 700,
+    "category": "Video karta"
+  },
+  {
+    "id": "87920458-f60b-438e-bd70-123456789023",
+    "name": "Intel Core i5-14400F",
+    "description": "10 yadroli desktop protsessor",
+    "price": 220,
+    "category": "Protsessor"
+  },
+  {
+    "id": "98031569-a71c-449f-ce81-123456789024",
+    "name": "Intel Core i7-14700K",
+    "description": "Kuchli Intel protsessori",
+    "price": 400,
+    "category": "Protsessor"
+  },
+  {
+    "id": "a9142680-b82d-450a-df92-123456789025",
+    "name": "Intel Core i9-14900K",
+    "description": "Flagman Intel protsessori",
+    "price": 550,
+    "category": "Protsessor"
+  },
+  {
+    "id": "ba253791-c93e-461b-ea03-123456789026",
+    "name": "Ryzen 5 7600",
+    "description": "AMD 6 yadroli protsessor",
+    "price": 200,
+    "category": "Protsessor"
+  },
+  {
+    "id": "cb364802-d04f-472c-fb14-123456789027",
+    "name": "Ryzen 7 7800X3D",
+    "description": "Gaming uchun kuchli AMD protsessor",
+    "price": 380,
+    "category": "Protsessor"
+  },
+  {
+    "id": "dc475913-e15a-483d-ac25-123456789028",
+    "name": "Ryzen 9 7950X",
+    "description": "16 yadroli AMD protsessor",
+    "price": 550,
+    "category": "Protsessor"
+  },
+  {
+    "id": "ed586024-f26b-494e-bd36-123456789029",
+    "name": "Kingston 8GB DDR5",
+    "description": "DDR5 operativ xotira",
+    "price": 35,
+    "category": "RAM"
+  },
+  {
+    "id": "fe697135-a37c-405f-ce47-123456789030",
+    "name": "Kingston 16GB DDR5",
+    "description": "16GB DDR5 RAM",
+    "price": 60,
+    "category": "RAM"
+  },
+  {
+    "id": "107a8246-b48d-416a-df58-123456789031",
+    "name": "Corsair 32GB DDR5",
+    "description": "32GB gaming RAM",
+    "price": 110,
+    "category": "RAM"
+  },
+  {
+    "id": "218b9357-c59e-427b-ea69-123456789032",
+    "name": "Samsung 980 1TB",
+    "description": "Tezkor NVMe SSD",
+    "price": 90,
+    "category": "SSD"
+  },
+  {
+    "id": "329ca468-d60f-438c-fb70-123456789033",
+    "name": "Samsung 990 Pro 2TB",
+    "description": "Yuqori tezlikdagi NVMe SSD",
+    "price": 180,
+    "category": "SSD"
+  },
+  {
+    "id": "43adb579-e71a-449d-ac81-123456789034",
+    "name": "WD Black SN850X",
+    "description": "Gaming uchun NVMe SSD",
+    "price": 150,
+    "category": "SSD"
+  },
+  {
+    "id": "54bec680-f82b-450e-bd92-123456789035",
+    "name": "Crucial P3 1TB",
+    "description": "1TB NVMe SSD",
+    "price": 70,
+    "category": "SSD"
+  },
+  {
+    "id": "65cfd791-a93c-461f-ce03-123456789036",
+    "name": "WD Blue 1TB",
+    "description": "1TB HDD disk",
+    "price": 45,
+    "category": "HDD"
+  },
+  {
+    "id": "76d0e802-b04d-472a-df14-123456789037",
+    "name": "Seagate Barracuda 2TB",
+    "description": "2TB HDD disk",
+    "price": 60,
+    "category": "HDD"
+  },
+  {
+    "id": "87e1f913-c15e-483b-ea25-123456789038",
+    "name": "Dell 24 Monitor",
+    "description": "24 dyuym Full HD monitor",
+    "price": 150,
+    "category": "Monitor"
+  },
+  {
+    "id": "98f20a24-d26f-494c-fb36-123456789039",
+    "name": "LG UltraGear 27",
+    "description": "27 dyuym 144Hz gaming monitor",
+    "price": 300,
+    "category": "Monitor"
+  },
+  {
+    "id": "a9031b35-e37a-405d-ac47-123456789040",
+    "name": "Samsung Odyssey G5",
+    "description": "27 dyuym QHD gaming monitor",
+    "price": 350,
+    "category": "Monitor"
+  },
+  {
+    "id": "ba142c46-f48b-416e-bd58-123456789041",
+    "name": "ASUS TUF Gaming VG27",
+    "description": "180Hz gaming monitor",
+    "price": 330,
+    "category": "Monitor"
+  },
+  {
+    "id": "cb253d57-a59c-427f-ce69-123456789042",
+    "name": "AOC 24G2",
+    "description": "24 dyuym 144Hz monitor",
+    "price": 180,
+    "category": "Monitor"
+  },
+  {
+    "id": "dc364e68-b60d-438a-df70-123456789043",
+    "name": "Logitech G502",
+    "description": "Gaming sichqonchasi",
+    "price": 70,
+    "category": "Sichqoncha"
+  },
+  {
+    "id": "ed475f79-c71e-449b-ea81-123456789044",
+    "name": "Razer DeathAdder V3",
+    "description": "Professional gaming mouse",
+    "price": 80,
+    "category": "Sichqoncha"
+  },
+  {
+    "id": "fe58608a-d82f-450c-fb92-123456789045",
+    "name": "Logitech G Pro X Superlight",
+    "description": "Yengil wireless gaming mouse",
+    "price": 130,
+    "category": "Sichqoncha"
+  },
+  {
+    "id": "1076919b-e93a-461d-ac03-123456789046",
+    "name": "Razer Viper V3 Pro",
+    "description": "Professional wireless mouse",
+    "price": 150,
+    "category": "Sichqoncha"
+  },
+  {
+    "id": "2187a2ac-f04b-472e-bd14-123456789047",
+    "name": "Logitech K120",
+    "description": "Oddiy USB klaviatura",
+    "price": 20,
+    "category": "Klaviatura"
+  },
+  {
+    "id": "3298b3bd-a15c-483f-ce25-123456789048",
+    "name": "Redragon K552",
+    "description": "Mexanik gaming klaviatura",
+    "price": 50,
+    "category": "Klaviatura"
+  },
+  {
+    "id": "43a9c4ce-b26d-494a-df36-123456789049",
+    "name": "Razer BlackWidow V4",
+    "description": "Premium mexanik klaviatura",
+    "price": 160,
+    "category": "Klaviatura"
+  },
+  {
+    "id": "54bad5df-c37e-405b-ea47-123456789050",
+    "name": "Keychron K2",
+    "description": "Wireless mexanik klaviatura",
+    "price": 90,
+    "category": "Klaviatura"
+  },
+  {
+    "id": "65cbe6e0-d48f-416c-fb58-123456789051",
+    "name": "HyperX Alloy Origins",
+    "description": "Gaming mexanik klaviatura",
+    "price": 100,
+    "category": "Klaviatura"
+  },
+  {
+    "id": "76dcf7f1-e59a-427d-ac69-123456789052",
+    "name": "Sony WH-1000XM6",
+    "description": "Noise cancelling quloqchin",
+    "price": 450,
+    "category": "Quloqchin"
+  },
+  {
+    "id": "87ed08a2-f60b-438e-bd70-123456789053",
+    "name": "AirPods Pro 3",
+    "description": "Apple wireless quloqchini",
+    "price": 250,
+    "category": "Quloqchin"
+  },
+  {
+    "id": "98fe19b3-a71c-449f-ce81-123456789054",
+    "name": "Galaxy Buds 4 Pro",
+    "description": "Samsung premium earbuds",
+    "price": 220,
+    "category": "Quloqchin"
+  },
+  {
+    "id": "a90f2ac4-b82d-450a-df92-123456789055",
+    "name": "JBL Tune 770NC",
+    "description": "Wireless noise cancelling quloqchin",
+    "price": 100,
+    "category": "Quloqchin"
+  },
+  {
+    "id": "ba103bd5-c93e-461b-ea03-123456789056",
+    "name": "Anker Soundcore Q45",
+    "description": "Uzoq batareyali wireless quloqchin",
+    "price": 130,
+    "category": "Quloqchin"
+  },
+  {
+    "id": "cb214ce6-d04f-472c-fb14-123456789057",
+    "name": "iPad Pro M5",
+    "description": "Professional Apple plansheti",
+    "price": 1000,
+    "category": "Planshet"
+  },
+  {
+    "id": "dc325df7-e15a-483d-ac25-123456789058",
+    "name": "iPad Air M3",
+    "description": "Yengil va kuchli planshet",
+    "price": 650,
+    "category": "Planshet"
+  },
+  {
+    "id": "ed436e08-f26b-494e-bd36-123456789059",
+    "name": "Galaxy Tab S11",
+    "description": "Samsung Android plansheti",
+    "price": 700,
+    "category": "Planshet"
+  },
+  {
+    "id": "fe547f19-a37c-405f-ce47-123456789060",
+    "name": "Xiaomi Pad 7",
+    "description": "Kuchli Xiaomi plansheti",
+    "price": 400,
+    "category": "Planshet"
+  },
+  {
+    "id": "1056802a-b48d-416a-df58-123456789061",
+    "name": "Galaxy Watch 8",
+    "description": "Samsung aqlli soati",
+    "price": 350,
+    "category": "Smart soat"
+  },
+  {
+    "id": "2167913b-c59e-427b-ea69-123456789062",
+    "name": "Apple Watch Series 11",
+    "description": "Apple aqlli soati",
+    "price": 450,
+    "category": "Smart soat"
+  },
+  {
+    "id": "3278a24c-d60f-438c-fb70-123456789063",
+    "name": "Garmin Venu 4",
+    "description": "Sport uchun aqlli soat",
+    "price": 400,
+    "category": "Smart soat"
+  },
+  {
+    "id": "4389b35d-e71a-449d-ac81-123456789064",
+    "name": "Xiaomi Watch S4",
+    "description": "Xiaomi aqlli soati",
+    "price": 180,
+    "category": "Smart soat"
+  },
+  {
+    "id": "549ac46e-f82b-450e-bd92-123456789065",
+    "name": "Anker 65W Charger",
+    "description": "65W tez zaryadlovchi",
+    "price": 45,
+    "category": "Zaryadlovchi"
+  },
+  {
+    "id": "65abd57f-a93c-461f-ce03-123456789066",
+    "name": "Samsung 45W Charger",
+    "description": "Samsung Super Fast Charging adapter",
+    "price": 40,
+    "category": "Zaryadlovchi"
+  },
+  {
+    "id": "76bce680-b04d-472a-df14-123456789067",
+    "name": "Apple 35W Charger",
+    "description": "Apple USB-C quvvat adapteri",
+    "price": 60,
+    "category": "Zaryadlovchi"
+  },
+  {
+    "id": "87cdf791-c15e-483b-ea25-123456789068",
+    "name": "Baseus 100W Charger",
+    "description": "100W ko‘p portli charger",
+    "price": 55,
+    "category": "Zaryadlovchi"
+  },
+  {
+    "id": "98def802-d26f-494c-fb36-123456789069",
+    "name": "UGREEN 65W Charger",
+    "description": "Kompakt GaN charger",
+    "price": 50,
+    "category": "Zaryadlovchi"
+  },
+  {
+    "id": "a9ef0913-e37a-405d-ac47-123456789070",
+    "name": "DeepCool PF550",
+    "description": "550W kompyuter quvvat bloki",
+    "price": 60,
+    "category": "Quvvat bloki"
+  },
+  {
+    "id": "ba0a1a24-f48b-416e-bd58-123456789071",
+    "name": "Corsair RM750e",
+    "description": "750W 80 Plus Gold PSU",
+    "price": 110,
+    "category": "Quvvat bloki"
+  },
+  {
+    "id": "cb1b2b35-a59c-427f-ce69-123456789072",
+    "name": "be quiet! Pure Power 12",
+    "description": "850W sifatli quvvat bloki",
+    "price": 130,
+    "category": "Quvvat bloki"
+  },
+  {
+    "id": "dc2c3c46-b60d-438a-df70-123456789073",
+    "name": "MSI MAG A650BN",
+    "description": "650W Bronze PSU",
+    "price": 65,
+    "category": "Quvvat bloki"
+  },
+  {
+    "id": "ed3d4d57-c71e-449b-ea81-123456789074",
+    "name": "ASUS TUF 750W",
+    "description": "750W gaming PSU",
+    "price": 120,
+    "category": "Quvvat bloki"
+  },
+  {
+    "id": "fe4e5e68-d82f-450c-fb92-123456789075",
+    "name": "NZXT H5 Flow",
+    "description": "Gaming kompyuter korpusi",
+    "price": 100,
+    "category": "Korpus"
+  },
+  {
+    "id": "1f5f6f79-e93a-461d-ac03-123456789076",
+    "name": "DeepCool CH560",
+    "description": "ARGB gaming korpus",
+    "price": 120,
+    "category": "Korpus"
+  },
+  {
+    "id": "2a60708a-f04b-472e-bd14-123456789077",
+    "name": "Montech Air 903",
+    "description": "Havo oqimi yaxshi bo‘lgan korpus",
+    "price": 90,
+    "category": "Korpus"
+  },
+  {
+    "id": "3b71819b-a15c-483f-ce25-123456789078",
+    "name": "Lian Li Lancool 216",
+    "description": "Premium gaming korpus",
+    "price": 150,
+    "category": "Korpus"
+  },
+  {
+    "id": "4c8292ac-b26d-494a-df36-123456789079",
+    "name": "Corsair 4000D",
+    "description": "Mashhur ATX korpus",
+    "price": 100,
+    "category": "Korpus"
+  },
+  {
+    "id": "5d93a3bd-c37e-405b-ea47-123456789080",
+    "name": "DeepCool AK400",
+    "description": "CPU uchun havo sovutgich",
+    "price": 40,
+    "category": "Sovutgich"
+  },
+  {
+    "id": "6ea4b4ce-d48f-416c-fb58-123456789081",
+    "name": "DeepCool AK620",
+    "description": "Kuchli dual tower CPU cooler",
+    "price": 70,
+    "category": "Sovutgich"
+  },
+  {
+    "id": "7fb5c5df-e59a-427d-ac69-123456789082",
+    "name": "Noctua NH-D15",
+    "description": "Premium havo sovutgich",
+    "price": 110,
+    "category": "Sovutgich"
+  },
+  {
+    "id": "80c6d6e0-f60b-438e-bd70-123456789083",
+    "name": "Arctic Liquid Freezer III",
+    "description": "360mm suyuqlik sovutish tizimi",
+    "price": 130,
+    "category": "Sovutgich"
+  },
+  {
+    "id": "91d7e7f1-a71c-449f-ce81-123456789084",
+    "name": "Cooler Master Hyper 212",
+    "description": "Universal CPU cooler",
+    "price": 45,
+    "category": "Sovutgich"
+  },
+  {
+    "id": "a2e8f802-b82d-450a-df92-123456789085",
+    "name": "Elgato Stream Deck",
+    "description": "Streamerlar uchun control panel",
+    "price": 150,
+    "category": "Aksessuar"
+  },
+  {
+    "id": "b3f90913-c93e-461b-ea03-123456789086",
+    "name": "Logitech C920",
+    "description": "Full HD web kamera",
+    "price": 70,
+    "category": "Web kamera"
+  },
+  {
+    "id": "c40a1a24-d04f-472c-fb14-123456789087",
+    "name": "Razer Kiyo",
+    "description": "Streaming web kamera",
+    "price": 90,
+    "category": "Web kamera"
+  },
+  {
+    "id": "d51b2b35-e15a-483d-ac25-123456789088",
+    "name": "HyperX QuadCast 2",
+    "description": "USB kondensator mikrofon",
+    "price": 150,
+    "category": "Mikrofon"
+  },
+  {
+    "id": "e62c3c46-f26b-494e-bd36-123456789089",
+    "name": "Blue Yeti",
+    "description": "Mashhur USB mikrofon",
+    "price": 120,
+    "category": "Mikrofon"
+  },
+  {
+    "id": "f73d4d57-a37c-405f-ce47-123456789090",
+    "name": "FIFINE K688",
+    "description": "USB va XLR mikrofon",
+    "price": 90,
+    "category": "Mikrofon"
+  },
+  {
+    "id": "084e5e68-b48d-416a-df58-123456789091",
+    "name": "Samsung T7 1TB",
+    "description": "Portable tashqi SSD",
+    "price": 100,
+    "category": "Tashqi disk"
+  },
+  {
+    "id": "195f6f79-c59e-427b-ea69-123456789092",
+    "name": "Samsung T7 Shield 2TB",
+    "description": "Himoyalangan portable SSD",
+    "price": 180,
+    "category": "Tashqi disk"
+  },
+  {
+    "id": "2a60708a-d60f-438c-fb70-123456789093",
+    "name": "SanDisk Extreme 1TB",
+    "description": "Tezkor portable SSD",
+    "price": 120,
+    "category": "Tashqi disk"
+  },
+  {
+    "id": "3b71819b-e71a-449d-ac81-123456789094",
+    "name": "Kingston XS1000 1TB",
+    "description": "Kichik hajmdagi portable SSD",
+    "price": 90,
+    "category": "Tashqi disk"
+  },
+  {
+    "id": "4c8292ac-f82b-450e-bd92-123456789095",
+    "name": "TP-Link Archer AX55",
+    "description": "Wi-Fi 6 router",
+    "price": 100,
+    "category": "Router"
+  },
+  {
+    "id": "5d93a3bd-a93c-461f-ce03-123456789096",
+    "name": "ASUS RT-AX86U",
+    "description": "Gaming Wi-Fi 6 router",
+    "price": 200,
+    "category": "Router"
+  },
+  {
+    "id": "6ea4b4ce-b04d-472a-df14-123456789097",
+    "name": "Xiaomi Router AX3200",
+    "description": "Arzon Wi-Fi 6 router",
+    "price": 60,
+    "category": "Router"
+  },
+  {
+    "id": "7fb5c5df-c15e-483e-ea25-123456789098",
+    "name": "TP-Link Archer C6",
+    "description": "AC1200 Wi-Fi router",
+    "price": 45,
+    "category": "Router"
+  },
+  {
+    "id": "80c6d6e0-d26f-494c-fb36-123456789099",
+    "name": "Mercusys MR70X",
+    "description": "Wi-Fi 6 gigabit router",
+    "price": 55,
+    "category": "Router"
+  },
+  {
+    "id": "6d89dfb3-62c4-472e-a1ac-734b06538623",
+    "name": "iPhone 17",
+    "description": "Apple smartfoni",
+    "price": 1200,
+    "category": "Telefon"
+  }
 ]

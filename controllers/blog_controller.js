@@ -17,12 +17,27 @@
 //     const total = products.length;
 
 //     const totalPages = Math.ceil(total / limit);
-
+    
 //     const skip = (page - 1) * limit;
 
 //     const data = products.slice(skip, skip + limit);
 
 // }
+
+// res.json({
+//     data,
+//     pagination:{
+//         page,
+//         limit,
+//         total,
+//         tatolPages,
+//         hasNext: page < totalPages,
+//         hasPrivous: page > 1
+//     }
+// })
+
+
+
 
 
 
@@ -152,165 +167,180 @@
 
 
 
-const service = require('../database/RW');
-const { v4: uuidv4 } = require('uuid');
 
-const getAll = async (req, res) => {
-    try {
-        const products = await service.ReadData();
 
-        const page = Number(req.query.page) || 1;
-        const limit = Number(req.query.limit) || 10;
 
-        if (page < 1 || limit < 1) {
-            return res.status(400).json({
-                message: "page va limit 1 dan katta bo'lishi kerak"
+
+
+    const service = require('../database/RW');
+    const { v4: uuidv4 } = require('uuid');
+
+    const getAll = async (req, res) => {
+        try {
+            const products = await service.ReadData();
+
+            const page = Number(req.query.page) || 1;
+            const limit = Number(req.query.limit) || 10;
+
+            if (page < 1 || limit < 1) {
+                return res.status(400).json({
+                    message: "page va limit 1 dan kichik bo'lmasligi kerak"
+                });
+            }
+
+            const total = products.length;
+
+            const totalPages = Math.ceil(total / limit);
+
+            const skip = (page - 1) * limit;
+
+            const data = products.slice(skip, skip + limit);
+
+            res.json({
+                data,
+                pagination: {
+                    page,
+                    limit,
+                    total,
+                    totalPages,
+                    hasNext: page < totalPages,
+                    hasPrevious: page > 1
+                }
             });
-        }
 
-        const total = products.length;
-        const totalPages = Math.ceil(total / limit);
-        const skip = (page - 1) * limit;
-
-        const data = products.slice(skip, skip + limit);
-
-        res.json({
-            success: true,
-            data,
-            page,
-            limit,
-            total,
-            totalPages
-        });
-
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
-
-const getById = async (req, res) => {
-    try {
-        const id = req.params.id;
-
-        const data = await service.ReadData();
-
-        const item = data.find(element => element.id === id);
-
-        if (!item) {
-            return res.status(404).json({
+        } catch (error) {
+            res.status(500).json({
                 success: false,
-                message: 'Product not found'
+                message: error.message
             });
         }
+    };
 
-        res.json({
-            success: true,
-            data: item
-        });
 
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
+    const getById = async (req, res) => {
+        try {
+            const id = req.params.id;
 
-const create = async (req, res) => {
-    try {
-        const { name, description, price, category } = req.body;
+            const data = await service.ReadData();
 
-        const product = {
-            id: uuidv4(),
-            name,
-            description,
-            price,
-            category
-        };
+            const item = data.find(element => element.id === id);
 
-        await service.AppendData(product);
+            if (!item) {
+                return res.status(404).json({
+                    success: false,
+                    message: 'Product not found'
+                });
+            }
 
-        res.status(201).json({
-            success: true,
-            data: product
-        });
+            res.json({
+                success: true,
+                data: item
+            });
 
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
-
-const update = async (req, res) => {
-    try {
-        const id = req.params.id;
-
-        const { name, description, price, category } = req.body;
-
-        const products = await service.ReadData();
-
-        const product = products.find(element => element.id === id);
-
-        if (!product) {
-            return res.status(404).json({
+        } catch (error) {
+            res.status(500).json({
                 success: false,
-                message: 'Product not found'
+                message: error.message
             });
         }
+    };
 
-        product.name = name || product.name;
-        product.description = description || product.description;
-        product.price = price || product.price;
-        product.category = category || product.category;
 
-        await service.WriteData(products);
+    const create = async (req, res) => {
+        try {
+            const { name, description, price, category } = req.body;
 
-        res.json({
-            success: true,
-            message: 'Successfully updated',
-            data: product
-        });
+            const product = {
+                id: uuidv4(),
+                name,
+                description,
+                price,
+                category
+            };
 
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
+            await service.AppendData(product);
 
-const remove = async (req, res) => {
-    try {
-        const id = req.params.id;
+            res.status(201).json({
+                success: true,
+                data: product
+            });
 
-        const products = await service.ReadData();
+        } catch (error) {
+            res.status(500).json({
+                success: false,
+                message: error.message
+            });
+        }
+    };
 
-        const removed = products.filter(item => item.id !== id);
 
-        await service.WriteData(removed);
+    const update = async (req, res) => {
+        try {
+            const id = req.params.id;
 
-        res.json({
-            success: true,
-            message: 'Successfully deleted'
-        });
+            const { name, description, price, category } = req.body;
 
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
+            const products = await service.ReadData();
 
-module.exports = {
-    getAll,
-    getById,
-    create,
-    update,
-    remove
-};
+            const product = products.find(element => element.id === id);
+
+            if (!product) {
+                return res.status(404).json({
+                    success: false,
+                    message: 'Product not found'
+                });
+            }
+
+            product.name = name || product.name;
+            product.description = description || product.description;
+            product.price = price || product.price;
+            product.category = category || product.category;
+
+            await service.WriteData(products);
+
+            res.json({
+                success: true,
+                message: 'Successfully updated',
+                data: product
+            });
+
+        } catch (error) {
+            res.status(500).json({
+                success: false,
+                message: error.message
+            });
+        }
+    };
+
+
+    const remove = async (req, res) => {
+        try {
+            const id = req.params.id;
+
+            const products = await service.ReadData();
+
+            const removed = products.filter(item => item.id !== id);
+
+            await service.WriteData(removed);
+
+            res.json({
+                success: true,
+                message: 'Successfully deleted'
+            });
+
+        } catch (error) {
+            res.status(500).json({
+                success: false,
+                message: error.message
+            });
+        }
+    };
+
+
+    module.exports = {
+        getAll,
+        getById,
+        create,
+        update,
+        remove
+    };
